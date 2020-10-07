@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../img/sfondolegno.jpg");
+  background-size: cover;
+
+}
+.core {
+  width: 50%;
+  height: 700px;
+  margin: auto;
+}
+img {
+  width: 120px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#title {
+  display: inline-block;
+  color: white;
+  margin: 0;
+}
+
+#unread {
+  margin: 5px 0px;
+  color: white;
+  line-height: 150%;
+}
+#number {
+  text-align: center;
+  background-color: orange;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+hr {
+  height: 3px;
+  background-color: white;
+}
+.email {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.email-text {
+  color: grey;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+#footer-text {
+  font-size: 30px;
+}
